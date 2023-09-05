@@ -1,0 +1,12 @@
+# Ignore log files
+*.log
+
+# Ignore build artifacts and dependencies
+build/
+node_modules/
+
+# Ignore environment-specific configuration files
+.env
+
+# Include a specific file (negating the previous pattern)
+!important-config.ini
